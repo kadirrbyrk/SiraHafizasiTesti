@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sequence.css">
+    <title>Sequence Memory Test</title>
+</head>
+<body>
+    <div class="container" id="game-area">
+        <div class="buttons-container">
+            <div>
+                <h2 id="level">level: 1</h2>
+            </div>
+            <div class="button-row">
+                <button id="0"></button>
+                <button id="1"></button>
+                <button id="2"></button>
+            </div>
+            <div class="button-row"> 
+                <button id="3"></button>
+                <button id="4"></button>
+                <button id="5"></button>
+            </div>
+            <div class="button-row">
+                <button id="6"></button>
+                <button id="7"></button>
+                <button id="8"></button>
+            </div>
+        </div>
+    </div>
+    <div id="game-over" class="game-over-screen" style="display: none;">
+        <div class="game-over-screen-container">
+            <div>
+                <i class="fas fa-solid fa-square"></i>
+                <i class="fas fa-solid fa-square"></i>
+            </div>
+            <div>
+                <i class="fas fa-solid fa-square"></i>
+                <i class="fas fa-solid fa-square"></i>
+            </div>
+            <h2>Sequence Memory</h2>
+            <h1 id="game-over-level"></h1>
+            <div class="button-container">
+                <button id="try-again">Try Again</button>
+                <button id="back-home-page">Back Home Page</button> 
+            </div> 
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/e70391d5bf.js" crossorigin="anonymous"></script>
+    <script src="sequence.js"></script>
+</body>
+</html>

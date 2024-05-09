@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('brain.avif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw; 
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.container h1{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    font-size: 60px;
+}
+.container p{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-size: 24px;
+}
+.container button{
+   width: 200px;
+   height: 50px;
+   margin: auto;
+   margin-top: 55px;
+   background-color: #eddede;
+   border: 2px solid black;
+   border-radius: 10px;
+   font-size: 24px;
+   cursor: pointer;
+   color: black;
+}
+.container button:hover{
+    background-color: black;
+    color: #eddede;
+    border: 2px solid #eddede;
+}
+.container img{
+    height: 300px;
+}
+
+
